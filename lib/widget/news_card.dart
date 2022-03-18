@@ -37,6 +37,16 @@ class NewsCard extends StatelessWidget {
               const SizedBox(
                 height: 10,
               ),
+              Text(
+                "${map['date']}",
+                style: const TextStyle(
+                    fontWeight: FontWeight.w800,
+                    fontSize: 14,
+                    color: Colors.blue),
+              ),
+              const SizedBox(
+                height: 10,
+              ),
             ],
           ),
         ),
